@@ -1,46 +1,144 @@
 html{
-    
-}
-
-body{
-}
-
-.header-stuff:first-child{
-    font-size: 8px;
-    width:100%;
-    height: 100px;
-    padding: 0px 10px 10px 0px;
-    margin:0px 10px 10px 0px;
-    text-align: center;
-    font-family: 'Forum', cursive;
-}
-.header-stuff:nth-last-child(2){
-    font-size: 100px;
-    width:100%;
-    height: 100px;
-    padding: 0px 10px 10px 0px;
-    margin:0px 10px 10px 0px;
-    text-align: center;
-    font-family: 'Forum', cursive;
-}
-    .floating-box {
-        display: inline-block;
-        background-color: rgb(236, 175, 42);
-        background-attachment: absolute;
-        width: 100%;
-        height: 300px;
-        padding:0px 0px 0px 0px;
-        margin: 0px;
-        border: 3px solid rgb(236, 175, 42); 
+ 
     }
     
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    display:subgrid;
+    grid-template-columns: 100%;
+}
 
+.floating-box {
+    background-image: url("redrock.jpg");
+    background-position:top center;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-
-div.portfolio{
-
+.toolbar {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    height: 60px;
+    padding: 0px 20px 0px 0px;
+    margin:0px 20px 0px 0px;
     background-color: #FFF;
-    display:inline-block;
+    color: black; 
+}
+
+.toolbar h2{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    color:black;
+    font-size: 15px;
+    height: 50px;
+    margin: -35px 0px -5px 5px;
+    padding:10px 0px 0px 5px;
+}
+
+.toolbar img {
+    float: right;
+    margin: 0px 0px 0px 5px;
+    border-radius: 100px;
+}
+
+.toolbar h1{
+
+    text-align: left;
+    background-color: #FFF;
+    font-family: 'Dancing Script', cursive;
+    color:black;
+    background-color: #FFF;
+    padding: 0px 0px 10px 20px;
+    margin: 0px 0px 0px 20px; 
+    font-size: 45px;
+    height: 50px;
+}
+
+.toolbar a{
+    float: right;
+    text-align: right;
+    background-color: #FFF;
+    font-family: 'Monserrat', sans-serif;
+    color: black;
+    padding: 2px 0px 5px 0px;
+    margin: 0px 0px 20px 0px;
+    font-size: 15px;
+    height: 15px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.toolbar a:hover{
+    color: #FFF;
+}
+
+.about-me h3{
+    background-color: #FFF;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    height: 10px;
+    width: 100%;
+}
+
+.about-me p{
+    background-color: #FFF;
+    text-align: left;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 15px;
+    height: auto;
     width: 100%;
     
 }
+
+.projects h3{
+    background-color: #FFF;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    height: 10px;
+    width: 100%;
+}
+
+.projects li, a{
+    background-color: #FFF;
+    text-align: left;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 15px;
+    height: auto;
+    width: 100%;
+    text-decoration: none;
+    color: black;  
+}
+
+.projects li :hover{
+    color: #FFF;
+}
+
+.github{
+    margin: 10px 0px 0px 0px;
+   
+}
+.contact-me h3{
+    background-color: #FFF;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    height: 10px;
+    width: 100%;
+}
+
+.contact-boxes p{
+    background-color: #FFF;
+    text-align: left;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 15px;
+    height: auto;
+    width: 100%;
